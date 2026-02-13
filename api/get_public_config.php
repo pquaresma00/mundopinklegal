@@ -22,7 +22,7 @@ $config = [
       "id" => "sedex",
       "name" => "Correios PAC",
       "description" => "8-12 dias úteis",
-      "price" => 1936,          // <-- GRÁTIS
+      "price" => 1937,          // <-- GRÁTIS
       "ativo" => true,
       "isDefault" => true
     ],
@@ -30,7 +30,7 @@ $config = [
       "id" => "pac",
       "name" => "Jadlog",
       "description" => "6-8 dias úteis",
-      "price" => 2271,
+      "price" => 2272,
       "ativo" => true,
       "isDefault" => false
     ],
@@ -38,7 +38,7 @@ $config = [
       "id" => "jadlog",
       "name" => "Sedex Full",
       "description" => "Chegará amanhã",
-      "price" => 2688,
+      "price" => 2687,
       "ativo" => true,
       "isDefault" => false
     ]
@@ -46,4 +46,5 @@ $config = [
 ];
 
 echo json_encode($config, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+
 exit;
