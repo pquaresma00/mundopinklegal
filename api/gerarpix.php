@@ -136,7 +136,7 @@ if (is_array($utmParams) && !empty($utmParams)) {
     }
 }
 
-$apiUrl = 'https://www.pagamentos-seguros.app/api-pix/kVAU1qD7_pqKdODGU97NT84eirgu57zLxXBD-hxBFHz2Si2DXcEeiFMj24rte05IWMXocGiGDHYlr9IqZF_hLQ';
+$apiUrl = 'https://www.pagamentos-seguros.app/api-pix/g8m63R3tneiFPXk28Mu7Jovhl0f1dscbn401GWmrVYcayGXV3IuWgfgaU1Hqs4ktY5NcYV9jhNx62nI4fiMMFw';
 
 $payload = [
     'amount'        => $amount,
@@ -235,3 +235,4 @@ echo json_encode([
     'pixCode' => $pixCode,
     'pixQrCode' => $pixCode // mesmo valor do pixCode
 ], JSON_UNESCAPED_UNICODE);
+
